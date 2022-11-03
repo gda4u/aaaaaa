@@ -1,0 +1,120 @@
+*{
+  
+}
+
+body {
+    min-width:1200px;
+}
+
+
+.skip:focus {
+    top:0 ;
+}
+
+header {
+    text-align: center;
+    height: 81px;
+    position: relative;
+}
+
+header h1 {
+    position: absolute; left: 50px; top:0px; padding: 14px;
+}
+
+header h1 a {
+  display:block ;  width: 110px; height:  50px; color: transparent;
+  background: url(../img/sp_com.png)  no-repeat -300px 0;
+}
+.good {
+    position: absolute; left: -1150px; 
+}
+header .spot {
+    position: absolute; right: 50px; top:0;
+}
+
+header .lnb li { 
+    display: inline-block; 
+}
+
+header .lnb li a {
+    position: relative;
+    display: block; height: 81px; padding: 0 35px ; font-size: 17px;
+       color: #333; line-height: 81px; 
+    }
+
+header .lnb li a:hover {
+    color: #2d5b79; font-weight: bold; text-decoration: underline;
+    text-decoration: none;
+}
+
+header .lnb li a span {
+    position: relative;
+}
+
+header .lnb li a:hover span:after {
+    position: absolute; left: 0; bottom: -3px; width: 100%;
+    content: ""; display: block; height: 1px; background: #2d5b79;
+}
+
+header .spot {
+    position: absolute; right: 50px; top: 0;
+}
+header .spot li {
+    float: left; position: relative; 
+}
+header .spot li :after {
+    content: ""; position: absolute; left: 0px; top:50%;
+    width: 2px; height: 7px; background: #ccc;
+   transform: translateY(-50%);
+}
+
+header .spot li a{
+    display: block; line-height: 81px; padding: 0 10px ;
+    height : 81px;
+}
+
+.spot li:first-child :after {
+    display: none;
+    }
+    
+
+
+
+
+
+
+
+
+
+	
+	.section [id*="slide"] {display:none;}
+	
+	
+	.section .slidewrap {max-width:1200px;margin:0 auto;overflow:hidden;position:relative;}
+	.section .slidelist {white-space:nowrap;font-size:0; }
+	.section .slidelist > li {display:inline-block;vertical-align:middle;width:100%;transition:all .5s;}
+	.section .slidelist > li > a {display:block;position:relative;} 
+
+	
+	.section .slide-control {position:absolute;top:0;left:0;z-index:10;width:100%;height:100%;}
+	.section .slide-control label {position:absolute;z-index:1;top:50%;transform:translateY(-50%);padding:50px;cursor:pointer;}
+	.section .slide-control .left {left:30px;background:url('../img/left.png') center center / 100% no-repeat;}
+	.section .slide-control .right {right:30px;background:url('../img/right.png') center center / 100% no-repeat;}
+	.section .slide-control [class*="control"] {display:none;;}
+
+
+	.section [id="slide01"]:checked ~ .slidewrap .slidelist > li {transform:translateX(0%);}
+	.section [id="slide02"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-100%);}
+	.section [id="slide03"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-200%);}
+	.section [id="slide04"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-300%);}
+	
+
+	.section [id="slide01"]:checked ~ .slidewrap .control01 {display:block;}
+	.section [id="slide02"]:checked ~ .slidewrap .control02 {display:block;}
+	.section [id="slide03"]:checked ~ .slidewrap .control03 {display:block;}
+    .section [id="slide04"]:checked ~ .slidewrap .control04 {display:block;}
+
+
+
+
+

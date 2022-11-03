@@ -1,0 +1,92 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+
+
+
+
+
+*{ margin: 0px;
+    padding : 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+header {
+    background : #20c5b0;;
+    height: 31px;
+}
+
+header>p.naver1 {
+    position: absolute;
+    left: 100px;
+    top: px;
+    margin-top: 5px;
+}
+
+header>p.naver1 a {
+    background: url(../img/캡처.JPG) no-repeat;
+    display: block;
+    color: transparent;
+    width: 60px;
+    height: 20px;
+    margin-top: -2px;
+
+
+}
+header>p>a {
+    text-decoration: none;
+    font-size: 1px;
+
+    
+}
+
+
+header>p.naver2 {
+    position: absolute;
+    left: 163px;
+    
+}
+
+
+header>p.naver2 a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+header>ul.naver3 {
+    position: absolute;
+    right: 160px;
+}
+
+header>ul.naver3 li {
+    display: inline;
+ 
+}
+
+
+header>ul.naver3 a {
+    color: #ffffff;
+    font-size: 1px;
+    text-decoration: none;
+    
+    margin-left: 9px;
+}
+
+header>ul.naver3 a:hover {
+    border-bottom: 1px solid#ffffff;
+    font-weight: bold;
+}
+
+
+.a2 {
+    font-size: 40px;
+    color: blue;
+    margin: 20px;
+}
+
+
+img {
+    width: 100%;
+}
